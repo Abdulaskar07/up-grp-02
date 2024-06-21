@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry hero</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,200" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+    </style>
+</head>
+<body>
+    <div class="first-page">
+        <nav>
+            <section class="logo">Logo</section>
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>About us</li>
+                <li>Contact us</li>
+            </ul>
+            <h3>Username</h3>
+        </nav>
+        <div class="main">
+            <section class="Words">
+                <h1>Revitalize Your Clothes with Expert <Span>Laundry Services!</Span></h1>
+                <p>From premiumdry cleaning to swift wash and fold, we deliver care and comvinence Schedule a pickup and rediscover the freshness of your clothes today!</p>
+                <div class="btn-container">
+                <a href="#second-page"><button class="btn">Book a service today!</button></a>
+                </div>
+            </section>
+            <section class="image">
+            <div class="circle">
+                <img src="./Laundry.png" alt="Main-Img">
+            </div>
+            </section>
+        </div>
+        <section class="acheive">
+            <section>Our Acheivements</section>
+            <section class="exp">
+                <ul>
+                    <li>
+                        <h3>150+</h3>
+                        <p>Laundry Services</p>
+                    </li>
+                    <li>
+                        <h3>230+</h3>
+                        <p>Happy Customers</p>
+                    </li>
+                    <li>
+                        <h3>2+ Yrs</h3>
+                        <p>Experience</p>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </div>
+    <div class="second-page" id="second-page">
+        <section class="List" id="List">
+                <h2>Our Services</h2>
+                <h4>Click the Add item to add the services into Your Cart</h4>
+                <ul>
+                    <li>
+                        <p id="clean" ><img src="./dry.png" alt="dry"> cleaning - <Span>$200</Span></p>
+                        <button onclick="Cart('clean')" id="clean-btn">Add item</button>
+                    </li>
+                    <li>
+                        <p id="fold"><img src="./boutique.png" alt="fold">Wash & Fold - <Span>$100</Span></p>
+                        <button onclick="Cart('fold')" id="fold-btn">Add item</button>
+                    </li>
+                    <li>
+                        <p id="iron"><img src="./iron.png" alt="iron">Ironing - <Span>$30</Span></p>
+                        <button onclick="Cart('iron')" id="iron-btn">Add item</button>
+                    </li>
+                    <li >
+                        <p id="stain"><img src="./stain-remover.png" alt="stain">Stain Removal - <Span>$500</Span></p>
+                        <button onclick="Cart('stain')" id="stain-btn">Add item</button>
+                    </li>
+                    <li >
+                        <p id="leather" ><img src="./suit.png" alt="leather">Leather &suede  - <Span>$999</Span></p>
+                        <button onclick="Cart('leather')" id="leather-btn">Add item</button>
+                    </li>
+                    <li>
+                        <p id="wed"><img src="./long-dress.png" alt="wed">wedding Dress  - <Span>$2800</Span></p>
+                        <button onclick="Cart('wed')" id="wed-btn">Add item</button>
+                    </li>
+                </ul>
+                <p id="result"><span class="material-symbols-outlined">info</span>Add the item to the cart and book now</p>
+            
+        </section>
+        <section class="Items">
+            <div class="top">
+                <h2>Added Items</h2>
+                <div>
+                    <table id="table">
+                        <tr>
+                            <th>S.No</th>
+                            <th>Service Name</th>
+                            <th>Price</th>
+                        </tr>
+                    </table>
+                </div>
+                <section>
+                    <p>Total Amount</p>
+                    <p id="total">$0</p>
+                </section>
+            </div>
+            <div class="bottom" id="bottom">
+                <h2>Book Now</h2>
+                <form  onsubmit="Book()">
+                    <Div> 
+                        <label for="">Full Name</label>
+                        <input type="text" placeholder="Enter Your Name" required>
+                    </Div>
+                    <section>
+                        <div> 
+                            <label for="">Email</label>
+                            <input type="email" placeholder="Enter Your email" required>
+                        </div>
+                        <div> 
+                            <label for="">Phone Number</label>
+                            <input type="number" placeholder="Enter Your Number" required>
+                        </div>
+                    </section>
+                <button >Book now</button>
+            </form>
+            </div>
+        </section>
+        
+    </div>
+    <div class="third-page">
+        <div class="activity">
+            <ul>
+                <li>
+                    <img src="./customer.png" alt="customer">
+                    <h3>Customer Support</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, adipisci? Cupiditate corporis repellat ex ipsa quidem ducimus amet, voluptatem explicabo eum reprehenderit exercitationem nesciunt excepturi voluptate? Recusandae eius officiis numquam!</p>
+                </li>
+                <li>
+                    <img src="./service.png" alt="service">
+                    <h3>Luxury Service</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, adipisci? Cupiditate corporis repellat ex ipsa quidem ducimus amet, voluptatem explicabo eum reprehenderit exercitationem nesciunt excepturi voluptate? Recusandae eius officiis numquam!</p>
+                </li>
+                <li>
+                    <img src="./delivary.png" alt="delivary">
+                    <h3>Free Delivary</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, adipisci? Cupiditate corporis repellat ex ipsa quidem ducimus amet, voluptatem explicabo eum reprehenderit exercitationem nesciunt excepturi voluptate? Recusandae eius officiis numquam!</p>
+                </li>
+                <li>
+                    <img src="./price.png" alt="price">
+                    <h3>Affortable Price</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, adipisci? Cupiditate corporis repellat ex ipsa quidem ducimus amet, voluptatem explicabo eum reprehenderit exercitationem nesciunt excepturi voluptate? Recusandae eius officiis numquam!</p>
+                </li>
+            </ul>
+        </div>
+        <div class="form">
+            <h2>Subscribe to our newsletter.</h2>
+            <div>
+                <section>
+                    <input type="text" placeholder="Full name">
+                    <input type="text" placeholder="Email">
+                </section>
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <footer>
+            <div class="About">
+                <h2>Logo</h2>
+                <h6>About us</h6>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, suscipit iusto maiores cum sapiente esse? Non in dignissimos</p>
+            </div>
+            <div class="links">
+                <h4>Important Links</h4>
+                <ul>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                    <li>Privacy policy</li>
+                    <li>Terms of use</li>
+                    <li>Refund Policy</li>
+                </ul>
+            </div>
+            <div class="links">
+                <h4>Contact</h4>
+                <p>mail@site.com</p>
+                <p>+91 91234 56780</p>
+            </div>
+            <div class="sm">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><img src="./instagram.png" alt="instagram"></li>
+                    <li><img src="./facebook.png" alt="facebook"></li>
+                    <li><img src="./twitter.png" alt="twitter"></li>
+                    <li><img src="./youtube.png" alt="youtube"></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+    
+</body>
+</html>

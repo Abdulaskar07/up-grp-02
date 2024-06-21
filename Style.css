@@ -1,0 +1,395 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+.first-page{
+    width: 100%;
+    height: 100vh;
+}
+.first-page nav{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: rgb(203, 17, 116);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.first-page nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 30%;
+}
+.first-page nav ul li:hover{
+    text-decoration: underline;
+    text-decoration-color:red ;
+    text-underline-offset: 3px;
+}
+.first-page section{
+    font-weight: 700;
+    font-size: x-large;
+
+}
+.image{
+    height: 200px;
+    width: 200px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+}
+.Words{
+    width: 50%;
+    padding: 50px 110px;
+    
+}
+.image{
+    width: 50%;
+    padding: 50px 70px;
+    
+}
+.circle{
+    width: 60%;
+    background-color: grey;
+    border-radius: 50%;
+    transform: translateX(50px);
+}
+.Words h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0px 200px 0px 0px;
+}
+.Words h1 span{
+    color: blue;
+
+}
+.Words p{
+    color: rgb(71, 71, 71);
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+
+}
+.btn-container{
+    /* background-color: aqua; */
+    margin-top: 20px;
+
+}
+.btn-container button{
+   padding: 10px 60px; 
+   border: none;
+   border-radius: 10px;
+   background-color: rgb(203, 17, 116); 
+   color: white;
+   font-size: large;
+
+}
+.circle img{
+    transform: translateX(60px) translateY(60px);
+}
+.acheive{
+    height: 15vh;
+    display: flex;
+    width: 100%;
+    background-color: rgb(203, 17, 116);
+    color: white;
+    font-family: "Roboto Slab", serif;
+}
+.acheive section:first-child{
+    align-items: center;
+    display: flex;
+    width: 20vw;
+    font-size: xx-large;
+    padding-left: 20px;
+    /* background-color: brown; */
+}
+.exp{
+    width: 80vw;
+    /* background-color: brown; */
+}
+.exp ul{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.exp ul li p{
+    font-size: medium;
+}
+.second-page{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(209, 206, 206);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+.List{
+    width: 60%;
+    background-color: white;
+    padding: 20px 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 20PX;
+}
+.List ul{
+    height: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* gap: 40px; */
+    margin: 20px 0px;
+    border-top: 2px solid lightgrey;
+    padding: 20px 0px;
+    border-bottom: 2px solid lightgrey;
+}
+.List  ul li{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.List  ul li p{
+    display: flex;
+}
+.List  ul li p img{
+    height: 20px ;
+    width: 20px;
+    margin-right: 5px;
+}
+.List ul Li span{
+    color: blue;
+}
+.List ul Li button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.List h2{
+    height: 10%;
+    font-size: xx-large;
+}
+.List h4{
+    font-weight: 400;
+}
+
+#result{
+    color: blue;
+    font-weight: 500;
+    display: flex;
+}
+.Items{
+    /* background-color: white; */
+    /* border-radius: 20px; */
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.top{
+    background-color: white;
+    padding: 10px 40px;
+    height: 50%;
+    border-radius: 20px;
+}
+.top h2{ 
+    display: flex;
+    justify-content: center;
+}
+.top div{
+    height: 80%;
+    /* background-color: aqua; */
+    width: 100%;
+    overflow: scroll;
+}
+.top div::-webkit-scrollbar{
+    display: none;
+}
+.top div table{
+    width: 100%;
+    /* overflow: auto; */
+}
+#table {
+   
+}
+.top table tr{
+    background-color:lightblue;   
+}
+.top table tr td{
+    background-color: white;
+    color: blue;
+    font-size:smaller;
+
+}
+
+.top section{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-weight: 700;
+    
+}
+.bottom{
+    height: 48%;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.bottom div input{
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+.bottom section {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom section div input{
+    border-radius: 10px;
+}
+.bottom button{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+.third-page{
+    height: 100vh;
+}
+.activity{
+    background: rgb(255, 255, 255);
+    height: 40%;
+    padding: 30px 50px;
+}
+.activity ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.activity ul li {
+    /* background-color: aqua; */
+    /* width: 20%; */
+    padding: 0px 50px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.activity ul li  img{
+    width: 100px;
+    height: 100px;
+}
+.activity ul li p{
+    font-size: x-small;
+    padding: 0px 30px;
+    color: rgb(147, 146, 146);
+    display: flex;
+    text-align: center;
+}
+.form{
+    width: 100%;
+    background-color: rgb(203, 17, 116);
+    color: white;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.form h2{
+    width: 40%;
+    font-size: xx-large;
+    padding: 0px 100px;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: translateX(-300px);
+    
+}
+.form div section input{
+    background-color: rgba(255, 255, 255, 0.269);
+    border:1px solid white;
+    padding: 10px 100px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form div button{
+    padding: 10px 20px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+.form div section input::placeholder{
+    color: white;
+}
+footer{
+    display: flex;
+    padding: 90px 40px 00px 40px;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+
+}
+footer div ul {
+    list-style: none;
+}
+footer div ul li img{
+    width: 20px;
+    height: 20px;
+}
+footer div{
+    width: 24%;
+    /* background-color: aquamarine; */
+    padding: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.About p{
+    padding:20px 0px;
+}
+.links{
+    padding:0px 100px;
+}
+.sm{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+
+}
+.sm ul{
+    display: flex;
+    width: 60%;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
